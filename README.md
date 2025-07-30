@@ -1,5 +1,4 @@
-<details>
-<summary>Click to expand full README content</summary># Scalable Job Importer with Queue Processing & History Tracking
+# Scalable Job Importer with Queue Processing & History Tracking
 
 This project implements a scalable system to import job feeds from external APIs, process them using a Redis-based queue system (BullMQ), store them in MongoDB, and log the import history for tracking purposes. It includes a backend (Node.js + Express) and a frontend (Next.js) for administrative UI.
 
@@ -37,50 +36,23 @@ This project implements a scalable system to import job feeds from external APIs
 **Queue Manager:** Redis (Using BullMQ)
 
 ## Project Structure
-
-- /client
--    /components        # React components for Admin UI
--    /pages             # Routes for the Admin Dashboard
--    /utils             # Utility functions
-- /server
--    /controllers       # API controllers
--    /services          # Business logic services
--    /workers           # Queue worker processes
--    /models            # MongoDB schemas
--    /routes            # HTTP API routes
--    /config            # Application configuration
--    /helpers           # Helper utilities (e.g., XML parsing)
-- /docs
+<pre>
+-    /client
+-       /components        # React components for Admin UI
+-       /pages             # Routes for the Admin Dashboard
+-       /utils             # Utility functions
+-    /server
+-       /controllers       # API controllers
+-       /services          # Business logic services
+-       /workers           # Queue worker processes
+-       /models            # MongoDB schemas
+-       /routes            # HTTP API routes
+-       /config            # Application configuration
+-       /helpers           # Helper utilities (e.g., XML parsing)
+-    /docs
 README.md             # Project setup and usage
 
-client
-┣ 📂 components
-┃ ┗ React components for Admin UI
-┣ 📂 pages
-┃ ┗ Routes for the Admin Dashboard
-┣ 📂 utils
-┃ ┗ Utility functions
-📦 server
-┣ 📂 controllers
-┃ ┗ API controllers
-┣ 📂 services
-┃ ┗ Business logic services
-┣ 📂 workers
-┃ ┗ Queue worker processes
-┣ 📂 models
-┃ ┗ MongoDB schemas
-┣ 📂 routes
-┃ ┗ HTTP API routes
-┣ 📂 config
-┃ ┗ Application configuration
-┣ 📂 helpers
-┃ ┗ Helper utilities (e.g., XML parsing)
-📦 docs
-┣ architecture.md
-┃ ┗ System design documentation
-┗ README.md
-┃ ┗ Project setup and usage
-
+</pre>
 ## Getting Started
 
 ### Prerequisites
