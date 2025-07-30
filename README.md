@@ -53,8 +53,33 @@ This project implements a scalable system to import job feeds from external APIs
 /docs
 README.md             # Project setup and usage
 
-
-README.md          # Project setup and usage
+client
+┣ 📂 components
+┃ ┗ React components for Admin UI
+┣ 📂 pages
+┃ ┗ Routes for the Admin Dashboard
+┣ 📂 utils
+┃ ┗ Utility functions
+📦 server
+┣ 📂 controllers
+┃ ┗ API controllers
+┣ 📂 services
+┃ ┗ Business logic services
+┣ 📂 workers
+┃ ┗ Queue worker processes
+┣ 📂 models
+┃ ┗ MongoDB schemas
+┣ 📂 routes
+┃ ┗ HTTP API routes
+┣ 📂 config
+┃ ┗ Application configuration
+┣ 📂 helpers
+┃ ┗ Helper utilities (e.g., XML parsing)
+📦 docs
+┣ architecture.md
+┃ ┗ System design documentation
+┗ README.md
+┃ ┗ Project setup and usage
 
 ## Getting Started
 
