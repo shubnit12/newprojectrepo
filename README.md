@@ -2,6 +2,12 @@
 
 This project implements a scalable system to import job feeds from external APIs, process them using a Redis-based queue system (BullMQ), store them in MongoDB, and log the import history for tracking purposes. It includes a backend (Node.js + Express) and a frontend (Next.js) for administrative UI.
 
+<img width="2494" height="926" alt="image" src="https://github.com/user-attachments/assets/20f7df0f-3d79-4ab0-925e-5c8b6aa83c0c" />
+<img width="1156" height="866" alt="image" src="https://github.com/user-attachments/assets/bc9fbe82-782f-4341-9102-5f1a12f24742" />
+<img width="1156" height="670" alt="image" src="https://github.com/user-attachments/assets/4cf140ef-0a5d-4a0d-8e61-c015a277c1aa" />
+
+
+
 ## Features
 
 ### Backend Features
