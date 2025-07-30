@@ -222,3 +222,8 @@ Production Deployment: Render, Vercel, AWS
 
 Cloud-hosted MongoDB & Redis
 
+
+### Notes/Information
+
+- all environment variables has been harcoded in this repo for the sake of easy cloning and running it locally.
+- only 4 api endpoint are being used beacuse other were returning non 200 status
